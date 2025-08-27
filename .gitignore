@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.envrc
+
+# Jupyter and notebook files
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Matplotlib and generated images
+*.png
+*.svg
+*.pdf
+
+# Test and coverage
+.coverage
+htmlcov/
+
+# Sphinx docs
+_build/
+
+# Misc
+*.tmp
+*.bak
+
+# Ignore secrets
+secrets.env
