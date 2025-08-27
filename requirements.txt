@@ -5,6 +5,7 @@ numpy>=1.19.0
 pyyaml>=5.4.0
 click>=7.0
 asyncio
+seaborn>=0.11.0
 
 # For benchmarks and testing
 pytest>=6.0

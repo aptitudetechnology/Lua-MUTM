@@ -13,7 +13,7 @@ colors = {
 
 # Create figure with 2x2 grid
 fig = plt.figure(figsize=(12, 10))
-plt.style.use('seaborn')  # Professional style
+# plt.style.use('seaborn')  # Comment out if Seaborn is not installed
 
 # Panel 1: Worker Role Relationships (Top Left)
 ax1 = plt.subplot(2, 2, 1)
