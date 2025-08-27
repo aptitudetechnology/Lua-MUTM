@@ -375,11 +375,11 @@ end
 
 *How our molecular workers find their perfect biological counterparts in cellular machinery*
 
-Instead of deploying our molecular factory on electronic hardware like the ELM11, we can map our personified workers directly onto the existing computational architecture of a living cell. This isn't just a metaphor - cells already operate as sophisticated molecular computers with distributed processing, memory systems, and communication networks.
+First we test by deploying our molecular factory on electronic hardware by going V2P so that one day we can map our personified workers directly onto the existing computational architecture of a living cell. This isn't just a metaphor - cells already operate as sophisticated molecular computers with distributed processing, memory systems, and communication networks.
 
 ### **The Cell as Nature's Ultimate Molecular Computer**
 
-Every living cell is essentially a biological ELM11 - a multi-core molecular processor with:
+Every living cell is essentially a biological computer - a multi-core molecular processor with:
 - **Distributed processing units** (organelles)
 - **Memory storage systems** (DNA, RNA, proteins)
 - **Communication networks** (molecular signaling)
