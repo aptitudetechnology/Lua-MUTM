@@ -1,0 +1,20 @@
+# Core dependencies
+matplotlib>=3.3.0
+networkx>=2.5
+numpy>=1.19.0
+pyyaml>=5.4.0
+click>=7.0
+asyncio
+
+# For benchmarks and testing
+pytest>=6.0
+pytest-asyncio>=0.15
+black>=21.0
+flake8>=3.8
+mypy>=0.812
+
+# Project-specific
+pylua_bioxen_vm_lib>=0.1.18
+
+# Standard library modules (no need to install):
+# sys, pathlib, random, math, typing, argparse, unittest
