@@ -1,0 +1,25 @@
+# Basic Chemical Reaction Network Example
+# Demonstrates simple molecular interactions
+
+# Simple catalysis reaction
+A + B -> C, rate=1.5
+C -> A + B, rate=0.3
+
+# Enzymatic reaction with catalyst
+E + S -> ES, rate=2.0
+ES -> E + P, rate=1.8
+
+# Competitive inhibition
+E + I -> EI, rate=0.5
+EI -> E + I, rate=0.1
+
+# Initial concentrations
+init A 10.0
+init B 5.0
+init E 2.0
+init S 20.0
+init I 1.0
+
+# Simulation parameters
+time 100.0
+steps 1000

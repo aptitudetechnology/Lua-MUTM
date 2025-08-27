@@ -1,0 +1,63 @@
+# Molecular UTM Configuration
+molecular_utm:
+  # VM Configuration
+  vm:
+    default_lua_executable: "lua"
+    max_workers: 10
+    enable_networking: false
+    enable_debug: true
+    persistent_sessions: true
+    
+  # Molecular Worker Configuration
+  workers:
+    librarian:
+      tape_size: 10000
+      optimization_interval: 1000
+      memory_limit: "100MB"
+      
+    inspector:
+      scan_radius: 5
+      history_size: 1000
+      position_tracking: true
+      
+    foreman:
+      max_states: 1000
+      transition_timeout: 30.0
+      complexity_threshold: 1000
+      
+    shift_supervisor:
+      max_coroutines: 50
+      task_queue_size: 200
+      scheduling_algorithm: "round_robin"
+      
+    diplomatic_corps:
+      ffi_enabled: true
+      performance_monitoring: true
+      library_cache_size: 10
+  
+  # CRN Engine Configuration
+  crn_engine:
+    parser_strict_mode: true
+    reaction_rate_precision: 6
+    species_name_validation: true
+    network_validation: true
+    
+  # Benchmarking Configuration
+  benchmarks:
+    tsp:
+      max_cities: 20
+      timeout: 300.0
+      iterations: 10
+      
+    sat:
+      max_variables: 50
+      clause_ratio: 4.3
+      timeout: 180.0
+      
+  # Logging Configuration
+  logging:
+    level: "DEBUG"
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    file: "molecular_utm.log"
+    max_size: "10MB"
+    backup_count: 5

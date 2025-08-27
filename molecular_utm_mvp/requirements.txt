@@ -1,0 +1,7 @@
+pylua_bioxen_vm_lib>=0.1.18
+asyncio
+numpy>=1.19.0
+networkx>=2.5
+matplotlib>=3.3.0
+pyyaml>=5.4.0
+click>=7.0
